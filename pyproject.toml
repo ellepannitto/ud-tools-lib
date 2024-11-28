@@ -7,7 +7,7 @@ dev-mode = true
 dev-mode-dirs = ["."]
 
 [project]
-name = "ud-tools.lib"
+name = "tools"
 version = "0.0.1"
 authors = [
   { name="Ludovica Pannitto", email="ellepannitto@gmail.com" },
@@ -24,7 +24,7 @@ dependencies = [
 ]
 
 [project.scripts]
-conll2ske = "tools.main:main"
+tools = "tools.main:main"
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/ud-tools"]
+packages = ["src/tools"]
